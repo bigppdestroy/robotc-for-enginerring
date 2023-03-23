@@ -34,11 +34,21 @@ task main()
 	turnLEDOn(greenLED);
 	wait(5);
 	turnLEDOff(greenLED);
+	wait(2);
 
 
 	startMotor(rightMotor, 69);
 	wait(5);
 	stopMotor(rightMotor);
+	wait(1);
+	startMotor(leftMotor, 25);
+	backward(25);
+	wait(2.5);
+	stopMotor(leftMotor);
+	wait(2);
+	startMotor(rightMotor, 127);
+	startMotor(leftMotor, 127);
+	wait(7);
 
 
 
