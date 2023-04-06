@@ -31,8 +31,7 @@ task main()
 i will try to make it when if the qencoder value is over 500 or less than -500 it will automatically go to those value and go on for there rather than going in one diretion infinitely
 */
 {
-	startMotor(leftMotor, 127);
-	startMotor(rightMotor, 127);
+	
 	int control22=1;
 
 
